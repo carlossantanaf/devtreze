@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adote Uma Horta</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/telaCriesuaHorta.css">
+</head>
+<body>
+ 
+  <section class="container">
+    <header class="header">
+      <div>
+        <img src="./img/IconMenu.png" alt="Menu">
+      </div>
+      <div>
+        <h1>LOGO</h1>
+      </div>
+      <div>
+        <img src="./img/user.png" alt="usuario">
+      </div>
+    </header>
+    <h2>
+      CRIE OU ENTRE EM UMA HORTA
+    </h2>
+
+    <div class="input-um">
+      <input type="text" id="text" value="Nome da Horta">
+      <textarea name="descricao" id="descricao">Descrição</textarea>
+    </div>
+
+    <div class="input-dois">
+      <div>
+        <input type="radio" name="colaborativo" id="colaborativo">
+        <label for="colaborativo">Colaborativo</label>
+      </div>
+      <div>
+        <input type="radio" name="colaborativo" id="privado">
+        <label for="privado">Privado</label>
+      </div>
+    </div>
+
+    <div class="fl">
+      <div class="button salvar">
+        Salvar
+      </div>
+    </div>
+
+    <div class="input-tres">
+   <div class="imge">
+    <img src="./img/Batata.webp">
+    <img src="./img/Alho.webp">
+    <img src="./img/Beringela.webp">
+    <img src="./img/Cebola.webp">
+    <img src="./img/Cenoura.webp">
+   </div>
+      <div>
+        <select name="hortalicas" id="hortalicas">
+          <option value="Batata" id="0">Batata</option>
+          <option value="Alho">Alho</option>
+          <option value="Beringela">Beringela</option>
+          <option value="Cebola">Cebola</option>
+          <option value="Cenoura">Cenoura</option>
+        </select>
+        <div class="muda">
+          <input type="radio" name="muda" id="muda" value="Muda">
+          <label for="muda">Muda</label>
+          <input type="radio" name="muda" id="semente" value="Semente">
+          <label for="emente">Semente</label>
+        </div>
+        <input type="text" value="Tempo de Colheira" class="tempoC" maxlength="10">
+      </div>
+      <div class="button adicionar">
+        Adicionar
+      </div>
+    </div>
+
+
+    <div class="input-quatro">
+     
+    </div>
+    
+
+  </section>
+  <script src="./javaScript.js"></script>
+</body>
+</html>
